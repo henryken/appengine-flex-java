@@ -14,7 +14,7 @@ class HelloWorldController {
   @Produces(MediaType.TEXT_PLAIN)
   fun index(@QueryValue("name", defaultValue = "World") name: String): String {
 
-    return "Hello $name"
+    return "Hello $name. From App Engine Flex."
   }
 
 }
